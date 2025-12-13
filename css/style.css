@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f6ff; /* light blue background */
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #0b3c5d; /* dark blue */
+}
+
+/* Product Grid */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #cfe2ff; /* light blue border */
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0b3c5d;
+}
+
+/* Button */
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #1e6fd9; /* blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0b3c5d; /* dark blue */
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 60, 93, 0.6); /* dark blue transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Box */
+.modal {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal img {
+    width: 100%;
+}
+
+.modal h2 {
+    color: #0b3c5d;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #0b3c5d;
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+    .product-container {
+        grid-template-columns: 1fr;
+    }
+}
