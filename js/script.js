@@ -3,42 +3,42 @@ const products = [
         id: 1,
         title: "Wireless Headphones",
         price: "₹2,999",
-        image: "images/p1.jpg",
+        image: "images/headphone.jpg",
         description: "High quality wireless headphones with noise cancellation."
     },
     {
         id: 2,
         title: "Smart Watch",
         price: "₹4,999",
-        image: "images/p2.jpg",
+        image: "images/smartphone.jpg",
         description: "Smart watch with fitness tracking features."
     },
     {
         id: 3,
         title: "Bluetooth Speaker",
         price: "₹1,799",
-        image: "images/p3.jpg",
+        image: "images/bluetooth_speaker.jpg",
         description: "Portable Bluetooth speaker with deep bass."
     },
     {
         id: 4,
         title: "Laptop Bag",
         price: "₹1,299",
-        image: "images/p4.jpg",
+        image: "laptop_bag/p4.jpg",
         description: "Water-resistant laptop bag with multiple compartments."
     },
     {
         id: 5,
         title: "Wireless Mouse",
         price: "₹699",
-        image: "images/p5.jpg",
+        image: "images/mouse.jpg",
         description: "Ergonomic wireless mouse with long battery life."
     },
     {
         id: 6,
         title: "USB-C Hub",
         price: "₹1,999",
-        image: "images/p6.jpg",
+        image: "images/usbhub.jpg",
         description: "Multi-port USB-C hub for laptops."
     }
 ];
