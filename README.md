@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Responsive Product Gallery
 
 This is a training project to create a responsive product gallery using HTML, CSS, and JavaScript.
@@ -32,17 +31,21 @@ How to Run:
 2. Open index.html in any browser
 
 Screenshots:
-- Desktop view: desktop.png
-- Mobile view: mobile.png
+- Desktop view: Desktop_UI.png
+- Mobile view: Mobile_UI.png, Mobile_UI_m.png
 
 Notes:
 - Focused on layout, responsiveness, and JS DOM functionality
 - Designed to be simple, clean, and easy to understand
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 184311d (readme updated)
+=======
+
+>>>>>>> 8b8d50e (resolved some conflicts)
 Responsive Product Gallery
 Task work to create a responsive product gallery using HTML, CSS, and JavaScript.
 
@@ -78,6 +81,10 @@ Notes:
 - Focused on layout, responsiveness, and JS DOM functionality
 - Designed to be simple, clean, and easy to understand
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6e8279b (readme updated)
 >>>>>>> 184311d (readme updated)
+=======
+- 
+>>>>>>> 8b8d50e (resolved some conflicts)
